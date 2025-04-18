@@ -1,0 +1,85 @@
+body 
+{
+    background: url("./SKAV.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.project_name
+{
+    color:rgb(255, 255, 255);
+    font-size: 2.8em;
+    font-family :"Poppins", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom : 30px;
+
+    text-shadow : 2px 2px 3px rgba(1,1,1,1);
+    overflow: hidden; 
+    white-space: nowrap;
+}
+
+.form 
+{
+    margin-bottom:100px;
+    background-color: rgb(255, 255, 255);
+    border-radius : 25px;
+
+    display : flex;
+    flex-direction : row;
+    padding: 5px;
+}
+
+.form:hover
+{
+    box-shadow: 1px 1px 5px 5px rgba(36, 14, 233, 0.331);
+}
+
+
+.inp_query 
+{
+    border-radius : 25px;
+    width: 50vmin;
+    height : 4.5vmin;
+    background-color: transparent;
+    border-color : transparent;
+    border-style :dashed;
+    font-family :"Noto Sans", sans-serif;
+    color : rgb(0, 0, 0);
+    font-size: 2.5vmin;
+    margin-bottom:5px;
+    margin-left :5px;
+    font-weight: 500;
+
+}
+
+.inp_query:focus 
+{
+    border-color: transparent; /* Ensures the border remains transparent on focus */
+    outline: none; /* Ensures no outline appears */
+}
+
+
+.getinput 
+{
+    background-color: transparent;
+    border-color : transparent;
+
+    margin-left :10px;
+    margin-right:5px;
+}
